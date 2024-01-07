@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    background-image: url("images/mobile/image-hero.jpg");
+    background-size: cover;
+    padding: 80px;
+    
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.img-logo{
+    margin-left: 0px;
+    padding-left: 10px;
+}
+.icon-ham{
+    margin-left: 70px;
+}
+h1{
+    color: #fff;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 50px;
+    margin-bottom: 30px;
+    padding: 40px;
+    text-align: start;
+
+}
+.interactive-img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.title{
+    margin-bottom: 15px;
+}
+.main-paragraph{
+    text-align: center;
+    width: 90%;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    line-height: 1.5;
+    color: hsl(0, 0%, 55%)
+
+
+}
+.container{
+    display: grid;
+    gap: 20px;
+}
+.img-one{
+    background-image: url("images/mobile/image-deep-earth.jpg");
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 90%;
+    background-size: cover;
+    font-weight: 300;
+}
+.img-two{
+    background-image: url("images/mobile/image-night-arcade.jpg");
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 90%;
+    background-size: cover;
+    font-weight: 300;
+}
+.img-three{
+    background-image: url("images/mobile/image-soccer-team.jpg");
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 90%;
+    background-size: cover;
+    font-weight: 300;
+
+}
+.img-four{
+    background-image: url("images/mobile/image-grid.jpg");
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 90%;
+    background-size: cover;
+    font-weight: 300;
+
+}
+.img-five{
+    background-image: url("images/mobile/image-from-above.jpg");
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 90%;
+    background-size: cover;
+    font-weight: 300;
+
+}
+.img-six{
+    background-image: url("images/mobile/image-pocket-borealis.jpg");
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 90%;
+    background-size: cover;
+    font-weight: 300;
+
+}
+.img-seven{
+    background-image: url("images/mobile/image-curiosity.jpg");
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 90%;
+    background-size: cover;
+    font-weight: 300;
+
+}
+.img-eight{
+    background-image: url("images/mobile/image-fisheye.jpg");
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 90%;
+    background-size: cover;
+    font-weight: 300;
+
+}
+button{
+    border: 1px solid black;
+    color: black;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    padding: 10px 50px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 70px;
+}
+.img-footer{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.social-icons{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.about-car{
+    list-style: none;
+    text-align: center;
+
+}
+.about,.careers,.events,.products,.support {
+    margin-bottom: 25px;
+}
+.rights-reserved{
+    text-align: center;
+    margin-top: 25px;
+    color:hsl(0, 0%, 41%);
+
+}
+.btn, .nav{
+    display: none
+}
+@media(min-width: 750px){
+    .icon-ham{
+     
+       display: none;
+    }
+    .nav{
+        display: block;
+    }
+    a{
+        color: #fff;
+        margin-left: 40px;
+        font-size: 20px;
+        text-decoration: none;
+    } 
+    a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .main{
+        position: relative;
+        text-align: center;
+        margin-right: 300px;
+        width: 90%;
+    }
+    .title{
+        margin-top: 60px;
+        
+    }
+    .main-paragraph{
+        margin-left: 50px;
+        text-align: left;
+    }
+    .interactive-img{
+        width: 70%;
+    }
+    .section-one{
+        background-color: #fff;
+        position: absolute;
+        bottom: 0px; 
+        right: 0px;
+        width: 40%;
+        text-align: left;
+    }
+    
+    .button{
+       display: none;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        width: 90%;
+        margin-bottom: 160px;
+    }
+    .img-one,.img-two,.img-three,.img-four,.img-five,.img-six,.img-seven,.img-eight{
+        padding: 200px 50px;
+        background-size: cover;
+        background-position: center;
+        justify-items: right;
+        margin-left: 5px;
+    }
+    .btn{
+        display: block;
+        margin-right: 70px;
+    }
+    .our-creation{
+        margin-left: 60px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .creation-btn{
+        display: flex;
+        justify-content: right;
+        width: 96%
+    }
+    .img-about{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-car{
+        margin-left: 40px;
+        display: flex;
+    }
+    .about,.careers,.events,.products,.support{
+        margin-left: 30px;
+    }
+    .social-icons{
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+    .icon{
+        margin-right: 30px;
+        padding-top: 10px;
+    }
+    .rights-reserved{
+        margin-right: 140px;
+        font-size: medium;
+    }
+    footer{
+        padding: 40px;
+    }
+    
+}
